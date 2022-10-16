@@ -1,235 +1,307 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 
 header {
-    background-color: #060435;
+  background-color: #060435;
 }
 .hero-section img {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar {
-    margin-top: -30px;
+  margin-top: -30px;
 }
 
 .navbar .navbar-brand {
-    color: #fff;
-    font-size: 40px;
-    font-family: "Dancing Script", cursive;
-    padding-top: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 30px;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: #fff;
-    margin-right: 20px;
-    padding-top: 30px;
+  color: #fff;
+  margin-right: 20px;
+  padding-top: 30px;
 }
 
-.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover:not(.active, .get-started) {
-    color: #ff0513;
+.navbar
+  .navbar-collapse
+  .navbar-nav
+  .nav-item
+  .nav-link:hover:not(.active, .get-started) {
+  color: #ff0513;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .active {
-    color: #fff;
-    background-color: #ff0513;
-    padding-top: 30px !important;
+  color: #fff;
+  background-color: #ff0513;
+  padding-top: 30px !important;
 }
 
 .navbar .get-started {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px 40px !important;
-    margin-top: 15px !important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 40px !important;
+  margin-top: 15px !important;
 }
 
 .hero-section .hero-section-data {
-    margin-top: 90px;
+  margin-top: 90px;
 }
 .hero-section span {
-    color: #fff;
+  color: #fff;
 }
 
 .hero-section h1 {
-    color: #fff;
-    font-size: 100px;
-    line-height: 80.6px;
-    margin-left: -7px;
+  color: #fff;
+  font-size: 100px;
+  line-height: 80.6px;
+  margin-left: -7px;
 }
 
 .hero-section p {
-    color: #fff;
-    margin-top: 10px;
+  color: #fff;
+  margin-top: 10px;
 }
 .hero-section p .job-title {
-    color: #ff0513;
+  color: #ff0513;
 }
 .hero-section .find-me {
-    color: #fff;
+  color: #fff;
 }
 .hero-section .find-me i {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .hero-section .hire-me-btns {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .hero-section .hire-me-btns button:nth-child(1) {
-    background-color: #ff0513;
-    color: #fff;
-    padding: 11px 50px;
-    border: 0;
+  background-color: #ff0513;
+  color: #fff;
+  padding: 11px 50px;
+  border: 0;
 }
 
 .hero-section .hire-me-btns button:nth-child(2) {
-    background-color: transparent;
-    color: #fff;
-    padding: 10px 50px;
-    border: 2px solid #ccc;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 50px;
+  border: 2px solid #ccc;
+}
+@media (max-width: 991.98px) {
+  .hero-section .hero-section-data {
+    margin-top: 50px;
+  }
+  .hero-section h1 {
+    font-size: 50px;
+    line-height: 40.6px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section .hero-section-data {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .hero-section h1 {
+    font-size: 40px;
+    line-height: 30.6px;
+  }
+
+  .hero-section .hire-me-btns button:nth-child(1) {
+    padding: 6px 50px;
+  }
+
+  .hero-section .hire-me-btns button:nth-child(2) {
+    padding: 5px 50px;
+  }
 }
 
 /* Start About us  */
 .about-us {
-    background-color: #040221;
-    padding: 80px 0;
+  background-color: #040221;
+  padding: 80px 0;
 }
 
 .about-us .about-us-data {
-    margin-top: 40px;
-    position: relative;
+  margin-top: 40px;
+  position: relative;
 }
 .about-us .about-us-data h2 {
-    color: #fff;
-    font-size: 45px;
+  color: #fff;
+  font-size: 45px;
 }
 
 .about-us .about-us-data h2 hr {
-    background-color: #ff0513;
-    height: 3px;
-    width: 200px;
-    position: absolute;
-    top: 15px;
-    right: -25px;
-    border-top: 0;
+  background-color: #ff0513;
+  height: 3px;
+  width: 200px;
+  position: absolute;
+  top: 15px;
+  right: -25px;
+  border-top: 0;
 }
 
 .about-us .about-us-data p {
-    color: #fff;
-    margin: 50px 0;
-    font-size: 15px;
+  color: #fff;
+  margin: 50px 0;
+  font-size: 15px;
 }
 .about-us .about-us-data button {
-    padding: 10px 30px;
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #ccc;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #ccc;
 }
 .about-us .about-us-image {
-    background-color: #0e0c38;
-    padding: 30px;
+  background-color: #0e0c38;
+  padding: 30px;
 }
 .about-us .about-us-image img {
-    width: 100%;
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .about-us .about-us-data h2 {
+    font-size: 40px;
+  }
+
+  .about-us .about-us-data h2 hr {
+    width: 150px;
+  }
+
+  .about-us .about-us-data p {
+    color: #fff;
+    margin: 25px 0;
+    font-size: 13px;
+  }
+}
+@media (max-width: 767.98px) {
+  .about-us {
+    overflow-x: hidden;
+  }
+  .about-us .about-us-data {
+    margin-bottom: 20px;
+  }
 }
 /* End About us  */
 
 /* Start Portfolio  */
 .portfolio {
-    background-color: #040221;
+  background-color: #040221;
 }
 
 .portfolio .portfolio-header {
-    position: relative;
+  position: relative;
 }
 
 .portfolio h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .portfolio .portfolio-header h2 hr {
-    background-color: #ff0513;
-    height: 3px;
-    width: 200px;
-    position: absolute;
-    left: 140px;
-    bottom: 0;
-    border-top: 0;
+  background-color: #ff0513;
+  height: 3px;
+  width: 200px;
+  position: absolute;
+  left: 140px;
+  bottom: 0;
+  border-top: 0;
 }
 
 .portfolio i:nth-child(1) {
-    color: #fff;
-    background-color: transparent;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 50%;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 .portfolio i:nth-child(2) {
-    color: #fff;
-    background-color: #ff0513;
-    padding: 11px;
-    border-radius: 50%;
+  color: #fff;
+  background-color: #ff0513;
+  padding: 11px;
+  border-radius: 50%;
 }
 
 .portfolio .list-items ul {
-    display: flex;
-    padding: 0;
+  display: flex;
+  padding: 0;
 }
 .portfolio .list-items ul li {
-    padding: 0;
-    margin: 0;
-    padding-right: 10px;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-right: 10px;
+  list-style: none;
 }
 
 .portfolio .list-items ul li a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 .portfolio .list-items ul li a.active {
-    color: #f00;
+  color: #f00;
 }
 .portfolio .portfolio-image {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .portfolio img {
+  width: 100%;
+}
+
+/* @media (max-width: 991.98px) {
+  .portfolio img {
     width: 80%;
+    height: 300px;
+  }
+}
+*/
+@media (max-width: 767.98px) {
+  .portfolio img {
+    width: 90%;
+  }
+  .portfolio {
+    overflow-x: hidden;
+  }
 }
 /* End Portfolio  */
 
 /* Start capabilities  */
 .capabilities {
-    background-color: #0e0c38;
-    padding: 70px 0;
+  background-color: #0e0c38;
+  padding: 70px 0;
 }
 
 .capabilities h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .capabilities hr {
-    height: 5px;
-    width: 180px;
-    background-color: #ff0513;
-    margin: 20px auto;
+  height: 5px;
+  width: 180px;
+  background-color: #ff0513;
+  margin: 20px auto;
 }
 
 .capabilities p {
-    color: #fff;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 50px;
+  color: #fff;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .capabilities .capabilities-item {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .capabilities .capabilities-item h3 {
-    color: #fff;
+  color: #fff;
 }
 .capabilities .capabilities-item p {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 
 /* End capabilities  */
@@ -237,121 +309,143 @@ header {
 /* Start Say Client Says  */
 
 .client-says {
-    background-color: #040221;
-    padding: 70px 0;
+  background-color: #040221;
+  padding: 70px 0;
 }
 
 .client-says h2 {
-    color: #fff;
+  color: #fff;
 }
 
 .client-says hr {
-    height: 5px;
-    width: 180px;
-    background-color: #ff0513;
-    margin: 20px auto;
+  height: 5px;
+  width: 180px;
+  background-color: #ff0513;
+  margin: 20px auto;
 }
 
 .client-says .client-says-p {
-    color: #fff;
-    margin-bottom: 20px;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
 .client-says img {
-    width: 100%;
+  width: 100%;
 }
 .client-says .client-says-data p {
-    color: #fff;
-    font-size: 18px;
+  color: #fff;
+  font-size: 18px;
 }
 .client-says .client-says-data span {
-    font-size: 67px;
-    color: #ff0513;
-    display: block;
+  font-size: 67px;
+  color: #ff0513;
+  display: block;
 }
 .client-says .client-says-data .algha-end {
-    text-align: center;
+  text-align: center;
 }
 
 .client-says h3 {
-    color: #fff;
-    font-size: 20px;
+  color: #fff;
+  font-size: 20px;
 }
 .client-says h4 {
+  color: #fff;
+  font-size: 16px;
+}
+
+
+@media (max-width: 991.98px) {
+  .client-says .client-says-data p {
+    font-size: 15px;
+  }
+  .client-says .client-says-data span {
+    font-size:40px;
+  }
+  .client-says h3 {
     color: #fff;
     font-size: 16px;
-}
+  }
+  .client-says h4 {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  
+ }
+
+@media (max-width: 767.98px) {  }
 /* End Say Client Says  */
 
 /* Start Contact Section */
 
 .contact {
-    background-color: #040b33;
-    padding: 80px 0;
+  background-color: #040b33;
+  padding: 80px 0;
 }
 .contact h2 {
-    color: #fff;
-    font-weight: bold;
+  color: #fff;
+  font-weight: bold;
 }
 .contact p {
-    color: #fff;
-    width: 80%;
-    margin: 30px auto;
+  color: #fff;
+  width: 80%;
+  margin: 30px auto;
 }
 .contact form {
 }
 .contact input {
-    border-radius: 0;
-    margin: 10px 0;
+  border-radius: 0;
+  margin: 10px 0;
 }
 .contact textarea {
-    padding-left: 17px;
+  padding-left: 17px;
 }
 
 .contact input[type="submit"] {
-    background-color: #ff0513;
-    color: #fff;
-    padding: 10px 40px;
-    border-radius: 30px;
-    border: 0;
-    margin-top: 50px;
+  background-color: #ff0513;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: 0;
+  margin-top: 50px;
 }
 
 /* End Contact Section */
 
 /* Start Footer  */
 footer {
-    background-color: #040221;
-    padding: 50px 0;
+  background-color: #040221;
+  padding: 50px 0;
 }
 
 footer h2 {
-    color: #fff;
-    font-size: 40px;
-    font-family: "Dancing Script", cursive;
-    padding-top: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 30px;
 }
 
 footer a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 footer a:hover {
-    color: #ff0513;
+  color: #ff0513;
 }
 
 footer p {
-    color: #fff;
+  color: #fff;
 }
 
 footer .social-icons i {
-    color: #fff;
+  color: #fff;
 }
 footer hr {
-    height: 8px;
-    color: #fff;
+  height: 8px;
+  color: #fff;
 }
 footer .end-footer {
-    color: #fff;
+  color: #fff;
 }
 /* End Footer  */
